@@ -1,0 +1,91 @@
+body{
+    font-family:'Times New Roman', Times, serif 
+}
+.row{
+    margin-top: 30px !important;
+    /* border: 1px solid red; */
+    padding: 15px;
+}
+.btn.button{
+    background: #005446;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin: 20px 0px 0px 20px;
+
+}
+.btn.button:hover{
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 7px 20px;
+    color:#005446;
+    border: 1px solid #005446;
+}
+.btn.button i{
+    padding-right: 10px;
+}
+.carousel{
+    height: 50vh;
+    padding-top: 7vh;
+}
+.imagebanner{
+    width: 100%;
+}
+.row.jumbo{
+    /* height: 100vh; */
+    background-color: #005446;
+}
+h1.heading,.heading2{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 40px;
+}
+h3.jumbotext{
+    color: #d1f506;
+    text-align: center;
+    font-size: 98px;
+    display: block;
+}
+.heading1,.banner,.paragraph{
+    margin: auto;
+    padding-top: 20px;
+}
+.banner1{
+    margin: auto;
+    display: block;
+}
+.paragraph1{
+    color: #ffffff;
+}
+.paragraph1 a,.paragraph1 a:hover{
+    text-decoration: none;
+    color:#005446;
+}
+.nav-link a{
+    color: blue;
+}
+.navbar-brand.logo{
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #005446;
+}
+.header-text{
+    font-size: 58px;
+    color: rgb(60, 45, 102);
+}
+@media (max-width:639px) {
+    h3.jumbotext{
+        color: #d1f506;
+        text-align: center;
+        font-size: 32px;
+        display: block;
+    }
+    .navbar-brand.logo{
+        font-size: 32px;
+        font-family: sans-serif;
+        color: #005446;
+    }
+  }
+  /* span.buttontext a{
+      text-decoration: none;
+      color:#fff;
+  } */
